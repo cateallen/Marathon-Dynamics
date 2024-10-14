@@ -1,0 +1,56 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+venv/
+.env/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# macOS-specific files
+.DS_Store
+
+# Logs and temporary files
+*.log
+*.tmp
+*.temp
+
+# Python environment files
+Pipfile
+Pipfile.lock
+
+# Generated data files
+data/*.csv
+data/*.json
+data/*.xlsx
+
+# Ignore data you don't want to share
+# Example: If you have raw data files that are too large or not intended to be shared, you can exclude them.
+data/raw-data/
+
+# matplotlib cache
+.matplotlib/
+
+# VS Code settings
+.vscode/
+
+# Files generated from package builds
+*.egg-info/
+*.eggs/
+dist/
+build/
+
+# Ignore config files for IDEs or text editors
+.idea/
+*.sublime-project
+*.sublime-workspace
+*.code-workspace
+
+# Ignore Jupyter Notebook's hidden checkpoints directory
+.ipynb_checkpoints/
+
+# Ignore anything related to pyenv and virtualenvs
+.pyenv/
